@@ -101,4 +101,4 @@ def delete_message(id):
     
 
 if __name__ == '__main__':
-    app.run(port=5555)
+    app.run(port=4000, debug=True)
